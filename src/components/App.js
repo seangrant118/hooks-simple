@@ -7,7 +7,7 @@ const App = () => {
     <div>
       <div>
         <button onClick={() => setResource("posts")}>Posts</button>
-        <button onClick={() => setResource("to dos")}>To Dos</button>
+        <button onClick={() => setResource("todos")}>To Dos</button>
       </div>
       <ResourceList resource={resource} />
     </div>
